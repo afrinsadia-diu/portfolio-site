@@ -6,6 +6,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .nav-title{
     color: var(--dark-01, #181818);
@@ -37,4 +38,24 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px;
+}
+/* header styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+}
+.btn-contact{
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border-color:#FD6E0A ;
+    padding: 18px 35px;
+}
+.hardy-image{
+    background-image: url(images/header_bg.png);
+    width: 450px;
+    height: 500px;
 }
