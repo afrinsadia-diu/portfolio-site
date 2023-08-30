@@ -43,6 +43,9 @@ nav a{
 .header{
     background-color: #FFF8F3;
     margin-bottom: 130px;
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    
 }
 .banner{
     display: flex;
